@@ -22,7 +22,7 @@ public class TratamentoTryCatch {
             }
 
         } catch (ArrayIndexOutOfBoundsException erro) {
-            System.out.println("Erro na matriz.\n");
+            System.out.println("Erro na matriz.\n\n");
             System.out.println(erro.getMessage());
         }
     }
